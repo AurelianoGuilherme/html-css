@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;700&display=swap');
+
+:root{
+    --cor0: #AA5939;
+    --cor1: #AA7939;
+    --cor2: #29506D;
+    --cor3: #277553;
+    --cor4: #e68c68;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Noto Serif Khojki', serif; 
+
+}
+*{
+    margin: 0px;
+}
+body{
+    background-color: #12436b;
+}
+header{
+    background-image: linear-gradient(to top, var(--cor0), var(--cor4)) ;
+    text-align: center;
+    color: white;
+}
+header h1{
+    font-weight: 700;
+    font-family: 'Noto Serif Khojki', serif;
+}
+header p{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+nav{
+    
+    padding-bottom: 10px;
+    background-color: var(--cor0);
+}
+nav a{
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: var(--cor1);
+    transition-duration: 0.4s;
+    border-radius: 5px;
+
+}
+
+main{
+    margin: auto;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.582);
+    margin-bottom: 20px;
+}
+
+main h1{
+font-family: var(--fonte-destaque);
+margin: 0px 20px 10px 20px;
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px 20px 0px 20px;
+    text-align: justify;
+    text-indent: 20px;
+    
+}
+aside{
+    padding: 10px;
+    background-color: #f7b195;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+aside h1{
+    font-weight: bold;
+    font-family: var(--fonte-destaque);
+    background-color: #AA5939;
+    margin: -10px -10px -0px -10px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    color: white;
+    font-size: 1.2em;
+
+}
+aside p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    
+    
+}
+aside ul{
+    
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+
+    }
+    aside ul a{
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    aside ul a:hover{
+        text-decoration: underline;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+    }
+
+
+
