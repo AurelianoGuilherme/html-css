@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: auto;
+    
+}
+header h1{
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 6.5em;
+    font-family:'Roboto', sans-serif;
+    font-variant: small-caps;
+
+}
+header p{
+    padding-bottom: 50px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900 ;
+    font-family:'Roboto', sans-serif;
+}
+header a:hover{
+    text-decoration: underline;
+}
+div.texto{
+    font-size: 3em;
+    font-family:'Caveat', cursive;
+    padding: 80px 0px 80px 30px;
+
+}
+section#imagen1{
+    background: black url(imagens/background001.jpg) left center no-repeat fixed ;
+    background-size: cover;
+    height: 600px;
+
+}
+#fundo{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    display: inline-block ;
+    height: 350px;
+    padding: 30px 30px 90px 30px;
+    margin: 60px 0px 0px 30px;
+}
+section#imagen2{
+    background: black url(imagens/background002.jpg) left center no-repeat fixed ;
+    background-size: cover;
+    height: 600px;
+}
+#fundo1{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    display: inline-block ;
+    height: 350px;
+    padding: 30px 30px 90px 30px;
+    margin: 60px 0px 0px 30px;
+}
+div#texto1{
+    padding-top: 0px;
+}
+div#texto2{
+    padding-top: 0px;
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+
+}
+footer p{
+    padding: 8px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
